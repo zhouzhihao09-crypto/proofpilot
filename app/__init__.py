@@ -1,0 +1,1 @@
+"""ProofPilot: an evidence-grounded AI task execution and verification system."""

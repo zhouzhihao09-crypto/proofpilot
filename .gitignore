@@ -1,0 +1,49 @@
+# Python
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment
+.env
+.env.*
+*.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local databases (runtime)
+*.db
+*.sqlite
+*.sqlite3
+
+# Build/dist
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.temp
