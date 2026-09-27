@@ -22,4 +22,4 @@ jobs:
           pip install fastapi uvicorn pydantic pypdf pytest
 
       - name: Run tests
-        run: python test_migration.py
+        run: pytest -q
